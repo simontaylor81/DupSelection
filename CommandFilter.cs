@@ -13,7 +13,7 @@ using Microsoft.VisualStudio.Utilities;
 namespace ChrisLajoie.DupSelection
 {
     [Export(typeof(IVsTextViewCreationListener))]
-    [ContentType("code")]
+    [ContentType("text")]
     [TextViewRole(PredefinedTextViewRoles.Editable)]
     class VsTextViewCreationListener : IVsTextViewCreationListener
     {
